@@ -2,7 +2,7 @@
 
 toggle between the two git commits:
 1 . fixing the issue of fetching a user with some id more than once by following the approach of memoization of the lodash library
-2 .
+2 . fetching users and posts in a more compact way without using the memoization of the lodash library, consequently avoiding the problem of fetcing a user or a post only once in case of dealing with a data-changing api. Additionally, separating the logic of the actions creators, which gives the ability to fetch posts or users or posts and users separately
 
 # Getting Started with Create React App
 
