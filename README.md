@@ -1,3 +1,9 @@
+# to see the difference between memoized version of calling the api with redux and the other universal approach:
+
+toggle between the two git commits:
+1 . fixing the issue of fetching a user with some id more than once by following the approach of memoization of the lodash library
+2 .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
